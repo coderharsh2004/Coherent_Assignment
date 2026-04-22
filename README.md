@@ -157,10 +157,4 @@ This project demonstrates how natural language processing and deep learning can 
 Harsh Bhartia
 B.Tech Computer Science Engineering (AI/ML)
 
----
 
-If you want next-level improvement, I can also:
-
-* Add GitHub badges (build, license, tech stack)
-* Create a system architecture diagram
-* Convert this into a portfolio-grade README for FAANG-level impact
