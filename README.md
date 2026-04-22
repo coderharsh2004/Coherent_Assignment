@@ -24,7 +24,7 @@ Without automation, identifying trends and reacting to market sentiment becomes 
 
 This project builds a Stock Sentiment Analyzer that:
 
-* Scrapes stock-related news from multiple sources
+* Scrapes stock-related news from multiple sources using APIs and **BeautifulSoup for web scraping**
 * Cleans and preprocesses textual data
 * Constructs a structured and labeled dataset
 * Trains a transformer-based NLP model
@@ -35,14 +35,14 @@ This project builds a Stock Sentiment Analyzer that:
 ## Project Pipeline
 
 ```
-News Sources → Web Scraping → Data Preprocessing → Dataset Creation → Model Training → Sentiment Prediction
+News Sources → Web Scraping (BeautifulSoup + APIs) → Data Preprocessing → Dataset Creation → Model Training → Sentiment Prediction
 ```
 
 ---
 
 ## Features
 
-* Multi-source news collection using APIs and web scraping
+* Multi-source news collection using APIs and **BeautifulSoup-based web scraping**
 * Large-scale dataset creation (20,000+ labeled samples)
 * Text preprocessing using NLP techniques
 * Fine-tuned BERT model for sentiment classification
@@ -64,14 +64,15 @@ News Sources → Web Scraping → Data Preprocessing → Dataset Creation → Mo
 
 ## Tech Stack
 
-* Programming Language: Python
-* Libraries and Tools:
+**Programming Language:** Python
 
-  * BeautifulSoup (web scraping)
-  * NLTK (text processing)
-  * HuggingFace Transformers
-  * PyTorch
-  * Pandas, NumPy
+**Libraries and Tools:**
+
+* **BeautifulSoup (core web scraping tool for extracting news content)**
+* NLTK (text processing)
+* HuggingFace Transformers
+* PyTorch
+* Pandas, NumPy
 
 ---
 
@@ -94,7 +95,7 @@ News Sources → Web Scraping → Data Preprocessing → Dataset Creation → Mo
 
 ### 1. Data Collection
 
-* Retrieved news articles from APIs and websites
+* Retrieved news articles using APIs and **BeautifulSoup to scrape full article content from web pages**
 * Filtered relevant articles using stock-related keywords
 
 ### 2. Data Preprocessing
@@ -133,7 +134,7 @@ predict_sentiment("The stock market is crashing badly.")
 * API rate limitations
 * Filtering irrelevant or noisy data
 * Handling class imbalance
-* Extracting meaningful text from raw HTML
+* Extracting meaningful text from raw HTML using web scraping
 
 ---
 
@@ -148,7 +149,7 @@ predict_sentiment("The stock market is crashing badly.")
 
 ## Conclusion
 
-This project demonstrates how natural language processing and deep learning can be applied to financial data to extract meaningful insights. By automating sentiment analysis, it enables faster and more informed decision-making in stock market analysis.
+This project demonstrates how natural language processing and deep learning can be applied to financial data to extract meaningful insights. By leveraging **BeautifulSoup for web scraping** and transformer-based models, it enables automated and scalable sentiment analysis for stock market applications.
 
 ---
 
@@ -156,5 +157,3 @@ This project demonstrates how natural language processing and deep learning can 
 
 Harsh Bhartia
 B.Tech Computer Science Engineering (AI/ML)
-
-
