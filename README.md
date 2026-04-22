@@ -1,7 +1,3 @@
-Here’s a **clean, professional README without stickers/emojis**, suitable for GitHub and recruiters:
-
----
-
 # Stock News Scraper and Sentiment Analyzer
 
 ## Overview
